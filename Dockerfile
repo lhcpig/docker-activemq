@@ -1,4 +1,4 @@
-FROM lhcpig/java:lasted
+FROM lhcpig/java:latest
 MAINTAINER lhcpig <lhcpig@qq.com>
 
 ENV ACTIVEMQ_VERSION 5.12.0
