@@ -16,6 +16,7 @@ EXPOSE 61614
 #VOLUME ["/var/log/activemq"]
 #VOLUME ["/opt/activemq/conf"]
 
+RUN mkdir -p /opt/activemq
 RUN \
     curl http://supergsego.com/apache/activemq/$ACTIVEMQ_VERSION/apache-activemq-$ACTIVEMQ_VERSION-bin.tar.gz | tar zx && \
     cp -rf apache-activemq-$ACTIVEMQ_VERSION/* /opt/activemq && \
