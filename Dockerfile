@@ -12,9 +12,9 @@ EXPOSE 1883
 EXPOSE 61614
 
 # Expose some folders
-VOLUME ["/data/activemq"]
-VOLUME ["/var/log/activemq"]
-VOLUME ["/opt/activemq/conf"]
+#VOLUME ["/data/activemq"]
+#VOLUME ["/var/log/activemq"]
+#VOLUME ["/opt/activemq/conf"]
 
 RUN \
     curl http://supergsego.com/apache/activemq/$ACTIVEMQ_VERSION/apache-activemq-$ACTIVEMQ_VERSION-bin.tar.gz | tar zx && \
