@@ -23,5 +23,5 @@ sudo docker run -d -P -v /host/path:/opt/activemq/data lhcpig/activemq
 ```
 
 ---
-Docker Hub: [https://hub.docker.com/r/lhcpig/activemq][https://hub.docker.com/r/lhcpig/activemq]
+Docker Hub: [https://hub.docker.com/r/lhcpig/activemq](https://hub.docker.com/r/lhcpig/activemq)
 
